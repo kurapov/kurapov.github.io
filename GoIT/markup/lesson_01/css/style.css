@@ -19,36 +19,41 @@ li{
 	line-height: 25px;
 }
 
+.m-t-md{
+	margin-top: 15px;
+}
+
 .content{
 	background: white;
 	max-width: 462px;
 	margin: 4px auto;
 	padding: 34px 51px;
-	-webkit-box-shadow: 0px 0px 3px 0px rgba(0,0,0,1);
-	-moz-box-shadow: 0px 0px 3px 0px rgba(0,0,0,1);
-	box-shadow: 0px 0px 3px 0px rgba(0,0,0,1);
+	-webkit-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.5);
+	box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.5);
 }
 
 .row{
 	padding: 3px 12px;
-	border-bottom: solid 1px #7a7a7a;
+	border-bottom: solid 1px #999999;
 }
 
 .photo{
-	margin: 5px auto;
+	margin: 0 auto;
 	text-align: center;
 	width: auto;
     height: auto; 
 }
 
 .photo > img{
-	width: 215px;
+	width: 133px;
+	border-radius: 10px;
 }
 
-.header{
+.first-row{
 	padding-top: 0;
 }
 
-.footer{
+.last-row{
 	border-bottom: 0;
 }
