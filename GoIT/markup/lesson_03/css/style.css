@@ -1,0 +1,140 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: #f9f9f9;
+}
+
+ul{
+	list-style: none;
+}
+
+.clearfix:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.wrapper{
+	height: 100%;
+	width: 1060px;
+	margin: auto auto;
+	padding: 50px 48px 48px 60px;
+	background: white;
+	-webkit-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.3);
+	box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.3);
+}
+
+.menu-top{
+	margin: 40px auto;
+	background: #5e5e5e; /* Для старых браузров */
+    background: linear-gradient(to bottom, #5e5e5e, #444343);
+}
+
+.menu-top li{
+	width: 99px;
+	margin-right: 43px;
+	border-left: 1px solid transparent;
+	border-right: 1px solid transparent;
+	display: inline-block;
+
+	line-height: 40px;
+	text-align: center;
+}
+
+.menu-top li > a{
+	display: block;
+	text-decoration: none;
+    color: white;
+}
+
+.menu-top li:hover{
+	background: #4a4a4a; /* Для старых браузров */
+    background: linear-gradient(to bottom, #4a4a4a, #2e2e2e);
+    border-left: 1px solid #838383;
+	border-right: 1px solid #838383;
+}
+
+.menu-left{
+	width: 238px;
+	border: 1px solid #c8c8c8;
+	float: left;
+}
+
+.menu-left li{
+	border-bottom: 1px solid #c8c8c8;
+	font-size: 16px;
+	line-height: 38px;
+	list-style: none;
+}
+
+.menu-left li > a{
+	display: block;
+	padding-left: 23px;
+	color: #656363;
+	text-decoration: none;
+}
+
+.menu-left li:last-child{
+	border: none;
+}
+
+.menu-left li > a:hover{
+	padding-left: 35px;
+	color: #2c2c2c;
+}
+
+.content{
+	width: 770px;
+	margin-left: 48px;
+	float: left;
+	text-align: center;
+}
+
+.img{
+	width: 100%;
+	max-height: 500px;
+	border: 1px solid #c8c8c8;
+	overflow: hidden;
+}
+
+.text{
+	margin: 40px 25px 0 25px;
+	text-align: left;
+	color: #656363;
+}
+
+.footer{
+	margin-top: 63px;
+}
+
+.menu-buttom{
+	background: #e1e1e1;
+}
+
+.menu-buttom li{
+	width: 99px;
+	margin-right: 43px;
+	display: inline-block;
+	line-height: 40px;
+	text-align: center;
+}
+
+.menu-buttom li > a{
+	display: block;
+	text-decoration: none;
+	color: #656363;
+}
+
+.menu-buttom li > a:hover{
+	text-decoration: underline;
+}
+
+.menu-buttom li:last-child{
+	width: auto;
+    float: right;
+    margin-right: 26px;
+}
