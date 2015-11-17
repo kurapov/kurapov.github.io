@@ -5,6 +5,8 @@
 
 body{
 	background-image: url('../img/bg-image.png');
+	font-family: Tahoma;
+    font-size: 14px;
 }
 
 ul{
@@ -27,7 +29,7 @@ ul{
 
 .wrapper{
 	width: 1000px;
-	margin: 0 auto;
+	margin: 38px auto 0 auto;
 	background-color: white;
 	-webkit-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.7);
 	-moz-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.7);
@@ -37,8 +39,6 @@ ul{
 .header{
 	height: 164px;
 	padding: 11px 33px 0 28px;
-	font-family: Tahoma;
-    font-size: 12px;
     color: #128aa7;
 }
 
@@ -147,33 +147,46 @@ ul{
 
 
 .content-wrapper{
-	height: 500px;
+	height: 546px;
 	overflow: hidden;
 }
 
-.content-wrapper > div{
-	padding-top: 10px;
-	padding-right: 15px;
-	padding-left: 15px;
-
-	padding-bottom: 20000px;
-	margin-bottom: 20000px;
+.content-wrapper h2{
+	line-height: 29px;
+    font-size: 18px;
+	text-align: center;
+	color: #424c43;
 }
 
 .info{
-	width: 179px;
 	border-right: 1px solid #c7cacf;
 	background-color: #edeef0;
 }
 
 .content{
 	width: 550px;
+	padding-right: 15px;
 }
 
 .news{
-	width: 179px;
 	border-left: 1px solid #c7cacf;
 	background-color: #edeef0;
+}
+
+.info,
+.news{
+	width: 170px;
+	padding-right: 24px;
+}
+
+.info,
+.content,
+.news{
+	padding-top: 10px;
+	padding-left: 15px;
+	padding-bottom: 20000px;
+	margin-bottom: 20000px;
+	text-align: justify;
 }
 
 .footer{
