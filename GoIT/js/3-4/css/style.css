@@ -1,0 +1,40 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper{
+	width: 500px;
+	margin: 0 auto;
+}
+
+h1{
+	text-align: center;
+}
+
+.questions-wrapper{
+	margin: 30px auto;
+}
+
+.question{
+	margin-bottom: 30px;
+}
+
+.question h3{
+	margin-bottom: 10px;
+}
+
+.answer-item{
+	padding-left: 10px;
+	display: block;
+	line-height: 25px;
+}
+
+.send-results{
+	margin: 0 auto;
+	padding: 10px 40px;
+	display: block;
+	font-size: 25px;
+	background-color: aliceblue;
+	border: 2px solid black;
+}
