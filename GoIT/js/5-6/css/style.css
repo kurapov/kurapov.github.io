@@ -1,0 +1,41 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper{
+	margin: 0 auto;
+	height: 100%;
+    display: table;
+}
+
+.timer-wrapper{
+	vertical-align: middle;
+    display: table-cell;
+}
+
+.timer{
+	font-size: 40px;
+}
+
+.timer li,
+.splitter li{
+	display: inline-block;
+	margin: 0 5px;
+}
+
+.splitter{
+	margin: 0;
+	text-align: center;
+}
+
+.splitter li{
+	font-size: 20px;	
+	line-height: 20px;
+}
+
+.btn-row{
+	margin-bottom: 20px;
+	text-align: center;
+}
+
